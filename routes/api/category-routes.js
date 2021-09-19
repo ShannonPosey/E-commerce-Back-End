@@ -11,13 +11,13 @@ router.get('/', (req, res) => {
     include: [
       {
       model: Product,
-      attributes: ["id", "product_name", "price", "stock"]
+      attributes: ["id", "product_name", "price", "stock", "category_id"]
   }
 ]
   })
   .then(dbCategoryData => {
     if (!dbCategoryData) {
-      res.status(404).json({message: " No category found with that id"});
+      res.status(404).json({message: " No categories found with that id"});
       return;
     }
     res.json(dbCategoryData);
@@ -39,7 +39,7 @@ router.get('/:id', (req, res) => {
     },
     include: [{
       model: Product,
-      attributes: ["id", "product_name", "price", "stock"]
+      attributes: ["id", "product_name", "price", "stock", "category_id"]
     }]
   })
   .then(dbCategoryData => {
