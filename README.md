@@ -1,21 +1,21 @@
 # E-commerce Back End 
 ## Description 
-This is a back end for an e-commerce iste.
+This is a back end for an e-commerce site that will allow front-end developers to connect to the API.  They will have the ability to create, read, update, and deletes categories, products, and tags on their online store.
 
 ### Demonstration
 
-View a complete video demonstration of the application: [E-commerce Demo]()
+View a complete video demonstration of the application: [E-commerce Demo](https://youtu.be/d_5ajhM6WJI)
 
-![E-commerce-DEMO](/img/)
-
-
-![Terminal-Input](/img/)
+![E-commerce-DEMO](/img/categories.png)
 
 
-![Output-E-commerce](/img/README.png)
+![E-commerce-DEMO](/img/delete-categories.png)
 
 
-![Output-E-commerce](/img/)
+![Output-E-commerce](/img/products.png)
+
+
+![Output-E-commerce](/img/tag.png)
 
 ## Table of Contents 
 
